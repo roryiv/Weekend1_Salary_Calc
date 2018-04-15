@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Celery Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="jquery-3.3.1.js"></script>
+    <script src="client.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Salary Calculator</h1>
+    </header>
+    <p>Add New Employee</p>
+    <input placeholder="First Name" id="firstNameIn"/>
+    <input placeholder="Last Name" id="lastNameIn"/>
+    <input placeholder="ID" id="idIn" />
+    <input placeholder="Title" id="titleIn" />
+    <input placeholder="Annual Salary" id="salaryIn" />
+    <button id="submitButton">Submit</button>
+    <p>All Employees</p>
+    <table id="employeeTable">
+      <thead>
+        <th>
+          First Name
+        </th>
+        <th>
+          Last Name
+        </th>
+        <th>
+          ID
+        </th>
+        <th>
+          Title
+        </th>
+        <th>
+          Annual Salary
+        </th>
+        <th>
+
+        </th>
+      </thead>
+      <tbody id="empData">
+
+      </tbody>
+    </table>
+    <div id="monthlyTot">
+      <p>
+        Total Monthly Cost: $0.00
+      </p>
+    </div>
+  </body>
+</html>

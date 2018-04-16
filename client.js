@@ -48,7 +48,6 @@ function addEmp() {
   let lastName = $(lastNameIn).val();
   let id = $(idIn).val();
   let title = $(titleIn).val();
-  // let sal = $(salaryIn).val();
   sal = parseFloat($(salaryIn).val()).toFixed(2);
   $('#empData').append('<tr class="anEmployee"><td>'+firstName+
   '</td><td>'+lastName+'</td><td>'+

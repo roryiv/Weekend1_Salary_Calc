@@ -1,0 +1,22 @@
+{
+  "name": "weekend1_salary_calc",
+  "version": "1.0.0",
+  "description": "Create an application that records employee salaries and adds salaries up to report monthly costs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roryiv/Weekend1_Salary_Calc.git"
+  },
+  "author": "rory ivance",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roryiv/Weekend1_Salary_Calc/issues"
+  },
+  "homepage": "https://github.com/roryiv/Weekend1_Salary_Calc#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
